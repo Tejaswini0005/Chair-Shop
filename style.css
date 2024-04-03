@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    row-gap: 100px;
+}
+.hero-heading{
+    justify-content: center;
+    margin-top: 40px;
+}
+.head-para{
+    margin-bottom: 50px;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+.para{
+    margin-top: 15px;
+}
+.svg{
+    text-align: center;
+}
+.sml-header{
+    text-align: center;
+    margin-top: 5px;
+}
+.btn{
+    text-decoration: none;
+    background-color:green ;
+    color:white ;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color: rgb(18, 107, 223);
+    background-color:rgb(103, 212, 103) ;
+
+}
+.sml-heading{
+    margin-top: 5px;
+    margin-bottom: 18px;
+
+}
+.grid-3-cols{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+   
+}
+.grid-3-cols{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    margin-top: 30px;
+}
+.testimonials-section{
+    background-color: green;
+    border-radius: 20px;
+}
+.testimonials-section img{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.blockquote{
+    grid-column: 2/-1;
+    align-self: center;
+    color: white;
+
+}
+.block{
+    margin-top: 15px;
+}
+.grid-3-cols{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer{
+    margin-top: 50px;
+}
+.flex{
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.shadows{
+    box-shadow: 10px 7px 18px 0px rgba(97, 95, 95, 0.76);
+    border-radius: 20px;
+}
+.chair-img{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 20px;
+}
+.listed{
+    margin-left: 30px;
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+.icons{
+    height: 18px;
+    width: 18px;
+    margin-right: 8px;
+}
+.icon{
+    width: 28px;
+    height: 28px;
+    align-self: center;
+}
+.sml-btn{
+    font-size: 15px;
+    text-decoration: none;
+    background-color:green ;
+    color:white ;
+    padding: 5px 3px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.sml-btn:hover{
+    color: rgb(10, 117, 160);
+    background-color:rgb(103, 212, 103) ;
+
+}
+
+.feature-section{
+    margin-top: 40px;
+}
+.heading{
+    margin-top: 30px;
+}
